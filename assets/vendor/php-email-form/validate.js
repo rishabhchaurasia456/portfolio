@@ -92,7 +92,7 @@
         'Content-Type': 'application/json',
         'X-Requested-With': 'XMLHttpRequest'
       },
-      body: JSON.stringify(formObj), // Send the form data as JSON
+      body: JSON.stringify(formObj),  // Send the form data as JSON
     })
       .then(response => {
         if (response.ok) {
